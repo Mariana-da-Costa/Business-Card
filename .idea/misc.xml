@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/CURSOS/PROGRAMACAO MOBILE/MARI/Business-Card/app/src/main/res/drawable/bg_cardview.xml" value="0.212" />
-        <entry key="..\:/CURSOS/PROGRAMACAO MOBILE/MARI/Business-Card/app/src/main/res/layout/activity_add_business_card.xml" value="0.22" />
+        <entry key="..\:/CURSOS/PROGRAMACAO MOBILE/MARI/Business-Card/app/src/main/res/drawable/ic_close.xml" value="0.212" />
+        <entry key="..\:/CURSOS/PROGRAMACAO MOBILE/MARI/Business-Card/app/src/main/res/layout/activity_add_business_card.xml" value="0.33" />
         <entry key="..\:/CURSOS/PROGRAMACAO MOBILE/MARI/Business-Card/app/src/main/res/layout/activity_main.xml" value="0.35" />
         <entry key="..\:/CURSOS/PROGRAMACAO MOBILE/MARI/Business-Card/app/src/main/res/layout/item_business_card.xml" value="0.33" />
         <entry key="app/src/main/res/drawable-v24/ic_add.xml" value="0.10989583333333333" />

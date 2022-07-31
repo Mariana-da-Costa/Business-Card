@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Business-Card</string>
-    <string name="label_business_cards">Cartões de visita</string>
+    <string name="app_name">Cartão de Visita</string>
+    <string name="label_business_cards">Meus cartões de visita</string>
     <string name="label_description_new_card">Novo cartão</string>
     <string name="label_nome">Nome</string>
     <string name="label_telefone">Celular</string>
