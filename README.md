@@ -1,23 +1,17 @@
-# Criando um App de Cartão de Visitas em Kotlin
+# Cartão de Visita
 
-Aplicativo de lista de cartão de visita onde é possível manter os dados nome, empresa, telefone de contato, email e cor de fundo do cartão utilizando banco de dados Room.
+App Nativo Android para a criação de cartões de visita.
 
-## Sobre o Autor
-Oi, sou o Igor! Estou aqui para contribuir com meu conhecimento nesse aplicativo Android utilizando Kotlin. Espero poder ajudar no desenvolvimento profissional de cada um de vocês.
+#
+:sparkles: Linguagem: Kotlin
 
-[![Linkedin Badge](https://img.shields.io/badge/-Igor_Bagliotti-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://br.linkedin.com/in/igor-rotondo-bagliotti-b1612b69)](https://br.linkedin.com/in/igor-rotondo-bagliotti-b1612b69)  [![Gmail Badge](https://img.shields.io/badge/-igor.bagliotti@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:igor.bagliotti@gmail.com)](mailto:igor.bagliotti@gmail.com)
+:sparkles: IDE: Android Studio
+#
+## Minha versão:
 
-## <br />Tecnologias utilizadas
-1. Room
-2. MVVM
-3. ViewBinding
-4. LiveData
-5. ListAdapter
-6. Material Design
+![App_Cartão_Visita](https://user-images.githubusercontent.com/107895708/182011049-0eb99017-8393-4ee8-9172-a154fc95bf0b.png)
 
+## Versão original:
 
-## <br />Descrição
-1. Preparação do ambiente e criação do nosso App
-3. Montando layout do projeto
-5. Configuração do room database
-7. Compartilhamento de cartão de visita
+![App_Cartão_Visita_Original](https://user-images.githubusercontent.com/107895708/182011052-22cfc299-59ab-4257-8d62-9666d4b5f823.png)
+
