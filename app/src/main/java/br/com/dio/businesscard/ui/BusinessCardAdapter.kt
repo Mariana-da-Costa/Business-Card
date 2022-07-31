@@ -34,8 +34,9 @@ class BusinessCardAdapter :
             binding.tvNome.text = item.nome
             binding.tvTelefone.text = item.telefone
             binding.tvEmail.text = item.email
-            binding.tvNomeEmpresa.text = item.empresa
-            binding.cdContent.setCardBackgroundColor(Color.parseColor(item.fundoPersonalizado))
+            binding.tvGitHub.text = item.gitHub
+            binding.tvHabilidades.text = item.habilidades
+            binding.cvContentCard.setCardBackgroundColor(Color.parseColor(item.fundoPersonalizado))
             binding.cdContent.setOnClickListener {
                 listenerShare(it)
             }
