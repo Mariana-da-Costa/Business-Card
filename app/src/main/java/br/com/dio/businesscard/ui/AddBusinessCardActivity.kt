@@ -24,24 +24,13 @@ class AddBusinessCardActivity : AppCompatActivity() {
         insertListeners()
     }
 
-//    private fun validaCamposLogin(): Boolean {
-//        return if (binding.tilNome.editText.toString().isEmpty() ||
-//            binding.tilNome.editText.toString().isBlank()
-//        ) {
-//            binding.tilNome.editText?.error = getString(R.string.campo_vazio)
-//            false
-//        } else {
-//            true
-//        }
-//    }
-
     private fun insertListeners() {
         binding.btnConfirm.setOnClickListener {
             val businessCard = BusinessCard(
                 nome = binding.tilNome.editText?.text.toString(),
                 telefone = binding.tilTelefone.editText?.text.toString(),
-                email = binding.tilGithub.editText?.text.toString(),
-                gitHub = binding.tilEmail.editText?.text.toString(),
+                gitHub = binding.tilGithub.editText?.text.toString(),
+                email = binding.tilEmail.editText?.text.toString(),
                 habilidades = binding.tilHabilidades.editText?.text.toString(),
                 fundoPersonalizado = binding.tilCor.editText?.text.toString()
             )

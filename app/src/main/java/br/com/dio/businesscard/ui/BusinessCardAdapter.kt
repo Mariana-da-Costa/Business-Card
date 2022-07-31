@@ -32,10 +32,10 @@ class BusinessCardAdapter :
 
         fun bind(item: BusinessCard) {
             binding.tvNome.text = item.nome
-            binding.tvTelefone.text = item.telefone
+            binding.tvTelefone.text = "Cel: " + item.telefone
+            binding.tvGitHub.text = "GitHub: " + item.gitHub
+            binding.tvHabilidades.text = "Habilidades: " + item.habilidades
             binding.tvEmail.text = item.email
-            binding.tvGitHub.text = item.gitHub
-            binding.tvHabilidades.text = item.habilidades
             binding.cvContentCard.setCardBackgroundColor(Color.parseColor(item.fundoPersonalizado))
             binding.cdContent.setOnClickListener {
                 listenerShare(it)
