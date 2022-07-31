@@ -8,6 +8,7 @@ import br.com.dio.businesscard.App
 import br.com.dio.businesscard.R
 import br.com.dio.businesscard.data.BusinessCard
 import br.com.dio.businesscard.databinding.ActivityAddBusinessCardBinding
+import com.google.android.material.textfield.TextInputEditText
 
 class AddBusinessCardActivity : AppCompatActivity() {
 
@@ -22,6 +23,17 @@ class AddBusinessCardActivity : AppCompatActivity() {
         setContentView(binding.root)
         insertListeners()
     }
+
+//    private fun validaCamposLogin(): Boolean {
+//        return if (binding.tilNome.editText.toString().isEmpty() ||
+//            binding.tilNome.editText.toString().isBlank()
+//        ) {
+//            binding.tilNome.editText?.error = getString(R.string.campo_vazio)
+//            false
+//        } else {
+//            true
+//        }
+//    }
 
     private fun insertListeners() {
         binding.btnConfirm.setOnClickListener {
